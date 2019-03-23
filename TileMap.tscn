@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://sprites/sheet.png" type="Texture" id=1]
+
+[node name="TileMap" type="TileMap"]
+cell_size = Vector2( 16, 16 )
+
+[node name="sheet" type="Sprite" parent="."]
+position = Vector2( 23.9343, 64.0363 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
